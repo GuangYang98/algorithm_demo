@@ -13,7 +13,8 @@ filt_li = [elem for elem in li if elem >0]
 rank_li = list(set(filt_li))
 #print(rank_li)
 
-pare_li = [x for x in range(rank_li[0], rank_li[0]+len(rank_li))]
+#create a constant list to compare, but it is not necessary, we can use len(rank_li) in range by for loop below
+#pare_li = [x for x in range(rank_li[0], rank_li[0]+len(rank_li))]
 #print(pare_li)
 
 for i in range(0, len(rank_li)):
